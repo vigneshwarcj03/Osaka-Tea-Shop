@@ -58,10 +58,11 @@ export default function CategoryTabs({
         right: isNavbarHidden ? "0px" : "auto",
         transition:
           "top 300ms ease-out, left 300ms ease-out, right 300ms ease-out",
+        WebkitOverflowScrolling: "touch",
       }}
       ref={containerRef}
     >
-      <div className="flex px-4 py-4 min-w-max mx-auto gap-4">
+      <div className="flex px-3 py-3 min-w-max mx-auto gap-2">
         {categories.map((category) => (
           <motion.button
             ref={(el) => {
@@ -71,7 +72,7 @@ export default function CategoryTabs({
             onClick={() => onCategoryChange(category.id)}
             whileTap={{ scale: 0.95 }}
             className={clsx(
-              "relative px-6 py-2 text-sm transition-all duration-300 rounded-full border whitespace-nowrap",
+              "relative px-4 py-2 text-xs sm:text-sm transition-all duration-300 rounded-full border whitespace-nowrap",
               activeCategory === category.id
                 ? "bg-gold border-gold text-black"
                 : "bg-white/5 border-white/10 text-white/60 hover:text-white hover:border-white/20",
