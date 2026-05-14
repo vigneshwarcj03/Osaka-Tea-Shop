@@ -169,11 +169,11 @@ export const menuItems: MenuItem[] = [
 { id: "shake22", name: "Protein Shake", description: "", price: 80, category: "osaka-thick-shake" },
 
 // NUGGETS
-{ id: "nugget1", name: "Chicken Nuggets", description: "", price: 80, category: "nuggets" },
-{ id: "nugget2", name: "Chicken Popcorn", description: "", price: 70, category: "nuggets" },
-{ id: "nugget3", name: "Crab Lollipop", description: "", price: 70, category: "nuggets" },
-{ id: "nugget4", name: "Smile Nuggets", description: "", price: 70, category: "nuggets" },
-{ id: "nugget5", name: "Prawns", description: "", price: 80, category: "nuggets" },
+{ id: "nuggets1", name: "Chicken Nuggets", description: "", price: 80, category: "nuggets" },
+{ id: "nuggets2", name: "Chicken Popcorn", description: "", price: 70, category: "nuggets" },
+{ id: "nuggets3", name: "Crab Lollipop", description: "", price: 70, category: "nuggets" },
+{ id: "nuggets4", name: "Smile Nuggets", description: "", price: 70, category: "nuggets" },
+{ id: "nuggets5", name: "Prawns", description: "", price: 80, category: "nuggets" },
 
 // AVIL MILK
 { id: "avil1", name: "Normal Avil Milk", description: "", price: 60, category: "avil-milk" },
@@ -199,7 +199,7 @@ export const menuItems: MenuItem[] = [
 { id: "hot10", name: "Black Honey Tea", description: "", price: 20, category: "hot" },
 { id: "hot11", name: "Lemon With Honey", description: "", price: 25, category: "hot" },
 { id: "hot12", name: "Black Ginger Tea", description: "", price: 20, category: "hot" },
-{ id: "hot13", name: "Black Ginger Tea with honey", description: "", price: 25, category: "hot" },
+{ id: "hot13", name: "Black Ginger Tea with Honey", description: "", price: 25, category: "hot" },
 
 // OSAKA SPECIAL KULKI
 { id: "kulki1", name: "Lime Kulukki", description: "", price: 50, category: "osaka-special-kulki" },
@@ -234,7 +234,7 @@ export const menuItems: MenuItem[] = [
 { id: "bread1", name: "Normal Bread Omelette", description: "", price: 50, category: "bread-omelette" },
 { id: "bread2", name: "Chicken Bread Omelette", description: "", price: 65, category: "bread-omelette" },
 { id: "bread3", name: "Peri Peri Bread Omelette", description: "", price: 55, category: "bread-omelette" },
-{ id: "bread4", name: "Extra Cheese", description: "", price: 15, category: "bread-omelette" },
+{ id: "bread4", name: "Extra Cheese Add-on", description: "", price: 15, category: "bread-omelette" },
 
 // SNACKS
 { id: "snacks1", name: "Chicken Fingers (5pcs)", description: "", price: 120, category: "snacks" },
@@ -252,7 +252,7 @@ export const menuItems: MenuItem[] = [
 { id: "burger6", name: "Masala Sandwich", description: "", price: 60, category: "burger-sandwich" },
 { id: "burger7", name: "Chicken Burger", description: "", price: 95, category: "burger-sandwich" },
 { id: "burger8", name: "Veg Burger", description: "", price: 85, category: "burger-sandwich" },
-{ id: "burger9", name: "Extra Cheese", description: "", price: 15, category: "burger-sandwich" },
+{ id: "burger9", name: "Extra Cheese Add-on", description: "", price: 15, category: "burger-sandwich" },
 
 // FRENCH FRIES
 { id: "fries1", name: "Normal French Fries", description: "", price: 70, category: "french-fries" },
